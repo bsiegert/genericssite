@@ -1,0 +1,77 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Does Go have Generics yet!?</title>
+
+	<style>
+		body {
+			background-color: #eee;
+			color: black;
+			font-family: sans-serif;
+			max-width: 70%;
+			margin: 0 auto;
+			line-height: 1.4;
+		}
+		a {
+			text-decoration: none;
+			color: #007d9c;
+			border-bottom: 1px solid #007d9c;
+		}
+		a:visited {
+			border-bottom: 1px dashed #007d9c;
+		}
+		a:hover {
+			color: #888;
+		}
+			
+	</style>
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@bentsukun" />
+	<meta property="og:title" content="Does Go have Generics yet!?" />
+	<meta property="og:image" content="gopher.png" />
+	
+</head>
+
+<body>
+	<h1>FAQ</h1>
+	
+	<h2>That's super mean!</h2>
+	
+	<p>That's not really a question, is it?</p>
+	
+	<p>More seriously, this page is meant to be light-hearted. The Go developers
+		know that generic types and functions are a oft-requested feature,
+		and they have been working very hard on producing a design that works
+		and that will stand the test of time, together with the community.
+		I am convinced that the end result will be great.</p>
+	
+	<h2>What are Generics and why are they hard?</h2>
+	
+	<p>See <a href="https://blog.golang.org/why-generics"><i>Why Generics?</i></a>
+		(by Ian Lance Taylor from the Go team) for an introduction, including
+		code examples.</p>
+	
+	<p>The reason generics are hard is that they are a feature that can destroy
+		a language if done wrong. A bad implementation may fracture the community
+		and destroy the simplicity and ease of use we have been enjoying. Compile
+		times or binary sizes might increase to the point of being a nuisance.</p>
+	
+	<p>That's why it is vital to come up with a design in the original spirit
+		of Go. This is a much more difficult task than just copying what has been
+		done in Java or other languages. As an example, the first iterations of
+		the design included "type contracts", whose syntax was widely criticized.
+		The syntax has gone through multiple variants, and there is an ongoing
+		experiment to see if the concepts of interfaces and type
+		contracts can be unified.</p>
+	
+	<h2>Who made this?</h2>
+	
+	<p>My name is Benny Siegert (aka
+		<a href="https://twitter.com/bentsukun">@bentsukun</a>).
+		I also have a blog, at <a href="https://bentsukun.ch/">bentsukun.ch</a>.</p>
+	
+	
+</body>
+</html>
